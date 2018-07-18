@@ -1,0 +1,195 @@
+<resources>
+
+    <style name="TextStyle" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_dark_primary</item>
+        <item name="android:textColorHint">@color/text_dark_hint</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+    </style>
+
+    <style name="TextStyle.Small" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <style name="TextStyle.Small.PrimaryDark" parent="TextStyle.Small">
+        <item name="android:textColor">@color/text_dark_primary</item>
+    </style>
+
+    <style name="TextStyle.Small.SecondaryDark" parent="TextStyle.Small">
+        <item name="android:textColor">@color/text_dark_secondary</item>
+    </style>
+
+    <style name="TextStyle.Small.HintDark" parent="TextStyle.Small">
+        <item name="android:textColor">@color/text_dark_hint</item>
+    </style>
+
+    <style name="TextStyle.Small.PrimaryLight" parent="TextStyle.Small">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Small.SecondaryLight" parent="TextStyle.Small">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Small.HintLight" parent="TextStyle.Small">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Normal" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_normal</item>
+    </style>
+
+    <style name="TextStyle.Normal.PrimaryDark" parent="TextStyle.Normal">
+        <item name="android:textColor">@color/text_dark_primary</item>
+    </style>
+
+    <style name="TextStyle.Normal.SecondaryDark" parent="TextStyle.Normal">
+        <item name="android:textColor">@color/text_dark_secondary</item>
+    </style>
+
+    <style name="TextStyle.Normal.HintDark" parent="TextStyle.Normal">
+        <item name="android:textColor">@color/text_dark_hint</item>
+    </style>
+
+    <style name="TextStyle.Normal.PrimaryLight" parent="TextStyle.Normal">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Normal.SecondaryLight" parent="TextStyle.Normal">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Normal.HintLight" parent="TextStyle.Normal">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Big" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="TextStyle.Big.PrimaryDark" parent="TextStyle.Big">
+        <item name="android:textColor">@color/text_dark_primary</item>
+    </style>
+
+    <style name="TextStyle.Big.SecondaryDark" parent="TextStyle.Big">
+        <item name="android:textColor">@color/text_dark_secondary</item>
+    </style>
+
+    <style name="TextStyle.Big.HintDark" parent="TextStyle.Big">
+        <item name="android:textColor">@color/text_dark_hint</item>
+    </style>
+
+    <style name="TextStyle.Big.PrimaryLight" parent="TextStyle.Big">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Big.SecondaryLight" parent="TextStyle.Big">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Big.HintLight" parent="TextStyle.Big">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Large" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <style name="TextStyle.Large.PrimaryDark" parent="TextStyle.Large">
+        <item name="android:textColor">@color/text_dark_primary</item>
+    </style>
+
+    <style name="TextStyle.Large.SecondaryDark" parent="TextStyle.Large">
+        <item name="android:textColor">@color/text_dark_secondary</item>
+    </style>
+
+    <style name="TextStyle.Large.HintDark" parent="TextStyle.Large">
+        <item name="android:textColor">@color/text_dark_hint</item>
+    </style>
+
+    <style name="TextStyle.Large.PrimaryLight" parent="TextStyle.Large">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+    <style name="TextStyle.Large.SecondaryLight" parent="TextStyle.Large">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Large.HintLight" parent="TextStyle.Large">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.SuperLarge" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_super_large</item>
+    </style>
+
+    <style name="TextStyle.SuperLarge.PrimaryDark" parent="TextStyle.SuperLarge">
+        <item name="android:textColor">@color/text_dark_primary</item>
+    </style>
+
+    <style name="TextStyle.SuperLarge.SecondaryDark" parent="TextStyle.SuperLarge">
+        <item name="android:textColor">@color/text_dark_secondary</item>
+    </style>
+
+    <style name="TextStyle.SuperLarge.HintDark" parent="TextStyle.SuperLarge">
+        <item name="android:textColor">@color/text_dark_hint</item>
+    </style>
+
+    <style name="TextStyle.SuperLarge.PrimaryLight" parent="TextStyle.SuperLarge">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+    <style name="TextStyle.SuperLarge.SecondaryLight" parent="TextStyle.SuperLarge">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.SuperLarge.HintLight" parent="TextStyle.SuperLarge">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Huge" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_huge</item>
+    </style>
+
+    <style name="TextStyle.Huge.PrimaryDark" parent="TextStyle.Huge">
+        <item name="android:textColor">@color/text_dark_primary</item>
+    </style>
+
+    <style name="TextStyle.Huge.SecondaryDark" parent="TextStyle.Huge">
+        <item name="android:textColor">@color/text_dark_secondary</item>
+    </style>
+
+    <style name="TextStyle.Huge.HintDark" parent="TextStyle.Huge">
+        <item name="android:textColor">@color/text_dark_hint</item>
+    </style>
+
+    <style name="TextStyle.Huge.PrimaryLight" parent="TextStyle.Huge">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Huge.SecondaryLight" parent="TextStyle.Huge">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+    <style name="TextStyle.Huge.HintLight" parent="TextStyle.Huge">
+        <item name="android:textColor">@color/text_light_primary</item>
+        <item name="android:textColorHint">@color/text_light_hint</item>
+    </style>
+
+</resources>
